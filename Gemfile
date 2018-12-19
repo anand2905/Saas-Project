@@ -18,6 +18,8 @@ gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
+gem 'devise'
+gem 'milia', github: 'jekuno/milia', branch: 'issue#68'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
@@ -56,3 +58,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 group :production do
   gem 'rails_12factor'
 end
+
+gem 'activerecord-session_store', github: 'rails/activerecord-session_store'
